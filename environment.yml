@@ -1,0 +1,25 @@
+name: ticker_analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - streamlit
+  - tqdm
+  - plotly
+  - ipython
+  - matplotlib
+  - scikit-learn
+  - numpy
+  - requests
+  - pytest
+  - mkdocs
+  - scikit-learn
+  - azure-storage-blob
+  - pip
+  - pip:
+    - yfinance
+    - python-dotenv
+    - mkdocs
+    - -e .
